@@ -1,4 +1,4 @@
-local _2afile_2a = "/home/elias/.config/nvim/fnl/cosmonaut/plugin/lualine.fnl"
+local _2afile_2a = "nvim/fnl/cosmonaut/plugin/lualine.fnl"
 local _2amodule_name_2a = "cosmonaut.plugin.lualine"
 local _2amodule_2a
 do

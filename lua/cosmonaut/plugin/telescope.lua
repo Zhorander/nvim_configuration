@@ -1,4 +1,4 @@
-local _2afile_2a = "/home/elias/.config/nvim/fnl/cosmonaut/plugin/telescope.fnl"
+local _2afile_2a = "nvim/fnl/cosmonaut/plugin/telescope.fnl"
 local _2amodule_name_2a = "cosmonaut.plugin.telescope"
 local _2amodule_2a
 do

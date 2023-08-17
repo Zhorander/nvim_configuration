@@ -1,4 +1,4 @@
-local _2afile_2a = "/home/elias/.config/nvim/fnl/cosmonaut/init.fnl"
+local _2afile_2a = "nvim/fnl/cosmonaut/init.fnl"
 local _2amodule_name_2a = "cosmonaut.init"
 local _2amodule_2a
 do
@@ -65,6 +65,8 @@ nvim.g["airline#extensions#tabline#enabled"] = 1
 NERDTreeShowHidden = 1
 nvim.g.tex_conceal = ""
 nvim.g.vim_markdown_math = 1
+nvim.o.colorcolumn = "80"
+vim.cmd.highlight({"ColorColumn", "ctermbg=0", "guibg=grey"})
 nvim.g.vim_markdown_folding_disabled = 1
 nvim.g.vim_markdown_frontmatter = 1
 nvim.g.vim_markdown_conceal = 0

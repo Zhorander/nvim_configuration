@@ -102,6 +102,10 @@
 (set nvim.g.tex_conceal "")
 (set nvim.g.vim_markdown_math 1)
 
+;; Setup Vertical Ruler
+(set nvim.o.colorcolumn "80")
+(vim.cmd.highlight [:ColorColumn "ctermbg=0" "guibg=grey"])
+
 ;; Markdown
 (set nvim.g.vim_markdown_folding_disabled 1)
 (set nvim.g.vim_markdown_frontmatter 1)
