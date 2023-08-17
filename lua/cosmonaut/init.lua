@@ -1,4 +1,4 @@
-local _2afile_2a = "nvim/fnl/cosmonaut/init.fnl"
+local _2afile_2a = ".config/nvim/fnl/cosmonaut/init.fnl"
 local _2amodule_name_2a = "cosmonaut.init"
 local _2amodule_2a
 do
@@ -52,6 +52,7 @@ plug("preservim/nerdtree")
 plug("vimwiki/vimwiki")
 plug("akinsho/toggleterm.nvim", {tag = "v2.7.1"})
 plug("HiPhish/guile.vim")
+plug("folke/neodev.nvim")
 plug("plasticboy/vim-markdown")
 plug("neoclide/coc.nvim", {branch = "release"})
 plug("airblade/vim-gitgutter")

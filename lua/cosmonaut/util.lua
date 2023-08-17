@@ -1,4 +1,4 @@
-local _2afile_2a = "nvim/fnl/cosmonaut/util.fnl"
+local _2afile_2a = ".config/nvim/fnl/cosmonaut/util.fnl"
 local _2amodule_name_2a = "cosmonaut.util"
 local _2amodule_2a
 do
